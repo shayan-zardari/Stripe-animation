@@ -32,10 +32,9 @@ canvas {
     height: 100%;
 }
 
-.vertical_nav {
-    position: fixed;
-    align-items: center;
-    width: 400px;
+.bottom_nav {
+    position: relative;
+    width: 800px;
     height: 50px;
     background-color: black;
     border-radius: 50px 50px 0 0;
