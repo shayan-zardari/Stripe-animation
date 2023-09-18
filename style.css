@@ -20,7 +20,7 @@ h1 {
 }
 
 .canvas_container {
-    clip-path: polygon(0 0, 100% 0, 100% 51%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 51%, 0% 110%);
     height: 50vh;
     position: absolute;
     inset: 0;
@@ -44,7 +44,8 @@ canvas {
     background-color: black;
     border-radius: 50px 50px 0 0;
     padding: 0 10px;
-    border: solid 5px white;
+    border: solid 1px white;
+    z-index: 10000;
 }
 
 .bottom_nav > ul {
@@ -71,8 +72,16 @@ canvas {
     color: orange;
 }
 
+.logo {
+    width: fit-content;
+    color: orange;
+    background: black;
+    padding: 0 30px 10px 30px;
+    border-radius: 50px;
+}
+
 .package_box_container {
-    margin: 100px 0;
+    margin: 50px 0;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -113,4 +122,29 @@ canvas {
     font-size: large;
     font-weight: 400;
     padding: 0 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.video_container {
+    position: relative;
+    inset: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.video_text {
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    padding: 0 0 0 50px;
 }
