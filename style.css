@@ -44,6 +44,7 @@ canvas {
     background-color: black;
     border-radius: 50px 50px 0 0;
     padding: 0 10px;
+    border: solid 5px white;
 }
 
 .bottom_nav > ul {
@@ -68,4 +69,48 @@ canvas {
 
 .bottom_nav > ul > li:hover{
     color: orange;
+}
+
+.package_box_container {
+    margin: 100px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.package_box {
+    width: 300px;
+    height: 300px;
+    background: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_box_heading {
+    color: white;
+}
+
+.package_box_button {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    font-size: xx-large;
+}
+
+.package_box_button:hover {
+    background-color: rgb(255, 140, 0);
+    cursor: pointer;
+}
+
+.package_box_para {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    padding: 0 30px;
 }
