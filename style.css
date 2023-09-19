@@ -153,6 +153,17 @@ canvas {
 
 footer {
     width: 100vw;
-    height: 150%;
-    margin: 300px 0;
+    height: 300px;
+    background:rgb(255, 140, 0);
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_list {
+    list-style: none;
+    color: white;
+    text-align: center;
 }
